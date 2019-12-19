@@ -1,0 +1,2225 @@
+{
+    "id": "b017e16297eb75c06cc8bc02fc403e55",
+    "name": "Adafruit IO REST API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "7f1dc4a060827fba2c45d307fb80c930",
+            "name": "Get information about the current user",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/user",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "9b0512b3e95ebf4a3e1491a4c6223d32",
+            "name": "Get the user's data rate limit and current activity level.",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/throttle",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "9e4644c866647c7f7e0941a3262fe734",
+            "name": "All activities for current user",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/activities",
+            "description": "The Activities endpoint returns information about the user's activities.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "a9b11993c9d0c94ebafb18c198a095ca",
+            "name": "All activities for current user",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/activities",
+            "description": "Delete all your activities.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "0eea96086e4f4a535b07aa13a75c6346",
+            "name": "Get activities by type for current user",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/activities\/{type}",
+            "description": "The Activities endpoint returns information about the user's activities.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "e9901f151698cab22fba4190aec5da92",
+            "name": "All feeds for current user",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds",
+            "description": "The Feeds endpoint returns information about the user's feeds. The response includes the latest value of each feed, and other metadata about each feed.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "c606d2c9c204c5e6a3c64d0106487bf0",
+            "name": "Create a new Feed",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "9a14b3aece6226ec91d00d5b83e7183a",
+            "name": "Get feed by feed key",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}",
+            "description": "Returns feed based on the feed key",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "7dd3c339e25dfea9b1180b465a8e0676",
+            "name": "Replace an existing Feed",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "b7b5c960884b6f0ed46faa30fddb22f7",
+            "name": "Update properties of an existing Feed",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "80eb838c1b86a6f8a5282d58a8f2ab9a",
+            "name": "Delete an existing Feed",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "bc4e8de8f3e523e7e6ddb0d1c6d2d1b2",
+            "name": "Get detailed feed by feed key",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/details",
+            "description": "Returns more detailed feed record based on the feed key",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "870032b55ddfa23da7eb72a369c699c4",
+            "name": "Get all data for the given feed",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "53216c5d441c051a86cf304d276b8893",
+            "name": "Create new Data",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data",
+            "description": "Create new data records on the given feed.\n\n**NOTE:** when feed history is on, data `value` size is limited to 1KB, when feed history is turned off data value size is limited to 100KB.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "747650de81ad0c4c28800219883c0d78",
+            "name": "Chart data for current feed",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/chart",
+            "description": "The Chart API is what we use on io.adafruit.com to populate charts over varying timespans with a consistent number of data points. The maximum number of points returned is 480. This API works by aggregating slices of time into a single value by averaging.\n\nAll time-based parameters are optional, if none are given it will default to 1 hour at the finest-grained resolution possible.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "resolution",
+                    "description": "A resolution size in minutes. By giving a resolution value you will get back grouped data points aggregated over resolution-sized intervals. NOTE: time span is preferred over resolution, so if you request a span of time that includes more than max limit points you may get a larger resolution than you requested. Valid resolutions are 1, 5, 10, 30, 60, and 120.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "hours",
+                    "description": "The number of hours the chart should cover.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "d703f270ab0119e49aa2cdd47ca194b4",
+            "name": "Create multiple new Data records",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/batch",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "f53b5199c49e356a8c9f2af0dd35672a",
+            "name": "Previous Data in Queue",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/previous",
+            "description": "Get the previously processed data point in the feed. NOTE: this method doesn't move the processing queue pointer.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "d138ed4c9103ff5688e591a3b2f3dd51",
+            "name": "Next Data in Queue",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/next",
+            "description": "Get the next newest data point in the feed. If queue processing hasn't been started, the first data point in the feed will be returned.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "950c43f62ba3caf2ed32ea8493d723bc",
+            "name": "Last Data in Queue",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/last",
+            "description": "Get the most recent data point in the feed. This request sets the queue pointer to the end of the feed.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "ba64ee015c23042f1629ce1d0660d40e",
+            "name": "First Data in Queue",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/first",
+            "description": "Get the oldest data point in the feed. This request sets the queue pointer to the beginning of the feed.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "47b6ddc35673e54d263006e0f03ed6fe",
+            "name": "Last Data in MQTT CSV format",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/retain",
+            "description": "Get the most recent data point in the feed in an MQTT compatible CSV format: `value,lat,lon,ele`",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "20c7e6924ab433592164c23b0e13a1bd",
+            "name": "Returns data based on feed key",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "939a7b28f2118d074b674d7441fb21c9",
+            "name": "Replace existing Data",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "3412e954a9b85cbcd74e134fd650cfb0",
+            "name": "Update properties of existing Data",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "e48c79402ae122f371f190592c1943fe",
+            "name": "Delete existing Data",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "9aca15fec8afe49e09d65236fcfd748f",
+            "name": "All groups for current user",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups",
+            "description": "The Groups endpoint returns information about the user's groups. The response includes the latest value of each feed in the group, and other metadata about the group.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "6d4213f229f96108545dd4d36a28139d",
+            "name": "Create a new Group",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "2a7703925e5f6987342b9840a5ff5e1d",
+            "name": "Returns Group based on ID",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "cc8fa4673627cfea8dfb7c33ad568caf",
+            "name": "Replace an existing Group",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "c2542fff6e01dbb6d876c298301afbed",
+            "name": "Update properties of an existing Group",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "25cf3812863b8ad6839b7d7b4f3a6322",
+            "name": "Delete an existing Group",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "c4ed38a890e9ac09cc14c4f4502cc03e",
+            "name": "Add an existing Feed to a Group",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/add",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "7c978320d93f9caa0d1a5ae147b38ebc",
+            "name": "Remove a Feed from a Group",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/remove",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "1061ac09ccf709a603bf1da7f9714158",
+            "name": "All feeds for current user in a given group",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/feeds",
+            "description": "The Group Feeds endpoint returns information about the user's feeds. The response includes the latest value of each feed, and other metadata about each feed, but only for feeds within the given group.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "7b156de279b5441310b66867ce56121b",
+            "name": "Create a new Feed in a Group",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/feeds",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "cbbac3b8979cb211cea5592922af948a",
+            "name": "Create new data for multiple feeds in a group",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/data",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "8d30b95a08066c15afa068575f77bc45",
+            "name": "All data for current feed in a specific group",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/feeds\/{feed_key}\/data",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start_time",
+                    "description": "Start time for filtering data. Returns data created after given time.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "end_time",
+                    "description": "End time for filtering data. Returns data created before give time.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Limit the number of records returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "ba88b0cd6ab219de1b9a91800c4e79cd",
+            "name": "Create new Data in a feed belonging to a particular group",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/feeds\/{feed_key}\/data",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "ad92e318bb8a94e7058a15e8b0a16d6f",
+            "name": "Create multiple new Data records in a feed belonging to a particular group",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/feeds\/{feed_key}\/data\/batch",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "45391c16283c763712e1ac0fbb1a1ea2",
+            "name": "All dashboards for current user",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards",
+            "description": "The Dashboards endpoint returns information about the user's dashboards.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "ea24074215d178eda9493574e39f0202",
+            "name": "Create a new Dashboard",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "5e852caa1ce32921ff5fed846c3672b3",
+            "name": "Returns Dashboard based on ID",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "32b42e7e4fc47ef66d4aaf19b81ec0b2",
+            "name": "Replace an existing Dashboard",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "6bbefac09ae3000362d11769a2c69fd9",
+            "name": "Update properties of an existing Dashboard",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "5ce08189c5aefeb698ac6443232999a4",
+            "name": "Delete an existing Dashboard",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "963663592ba3ffdf1027399dc143f350",
+            "name": "All blocks for current user",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{dashboard_id}\/blocks",
+            "description": "The Blocks endpoint returns information about the user's blocks.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "913abe01368dfcc087634ba3897c29c0",
+            "name": "Create a new Block",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{dashboard_id}\/blocks",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "415b46ded4a1ee94cf9dc78267def2c2",
+            "name": "Returns Block based on ID",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{dashboard_id}\/blocks\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "377b09bd1e9167225cffbd0ef1bdf311",
+            "name": "Replace an existing Block",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{dashboard_id}\/blocks\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "897618bec564090effd5af8486d9921c",
+            "name": "Update properties of an existing Block",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{dashboard_id}\/blocks\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "2eab9a02d09a80088b5c09d516f9cee6",
+            "name": "Delete an existing Block",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{dashboard_id}\/blocks\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "a5473ae905bbfce5d5811d1a3f1f5068",
+            "name": "All tokens for current user",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/tokens",
+            "description": "The Tokens endpoint returns information about the user's tokens.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "4db1354f5505007cdf5d2f2babcdfcff",
+            "name": "Create a new Token",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/tokens",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "cee3f32dd728abcb97d4a81b9b492f05",
+            "name": "Returns Token based on ID",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/tokens\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "2dea4fa5bb0974a2745fd44423ab07e4",
+            "name": "Replace an existing Token",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/tokens\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "fa20bfd2a43254dab87ec8e8df974489",
+            "name": "Update properties of an existing Token",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/tokens\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "8cb2cba48f80840befef429b9e5120b1",
+            "name": "Delete an existing Token",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/tokens\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "c0059876de7ce32801497a70dd9f6934",
+            "name": "All triggers for current user",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/triggers",
+            "description": "The Triggers endpoint returns information about the user's triggers.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "c720cd1e21c139a9727dca885335b0e1",
+            "name": "Create a new Trigger",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/triggers",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "24df8a0de2adef6a6f2ad68c4aa8beef",
+            "name": "Returns Trigger based on ID",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/triggers\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "8b9ccd028453451116d2192f5dfd644f",
+            "name": "Replace an existing Trigger",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/triggers\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "39c61e7258987993d835c9df4fca365b",
+            "name": "Update properties of an existing Trigger",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/triggers\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "98d16efe6c7f1c99467ae3c7063dfb7c",
+            "name": "Delete an existing Trigger",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/triggers\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "d9515c082e9664eabb9d754173ac9cfc",
+            "name": "All permissions for current user and type",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/{type}\/{type_id}\/acl",
+            "description": "The Permissions endpoint returns information about the user's permissions.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "4576fdc015d777030edf2346c98dd791",
+            "name": "Create a new Permission",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/{type}\/{type_id}\/acl",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "47952cd08e8e6b9bd71207f4376e518e",
+            "name": "Returns Permission based on ID",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/{type}\/{type_id}\/acl\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "bf570fff687b64c5789f24cf9af91070",
+            "name": "Replace an existing Permission",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/{type}\/{type_id}\/acl\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "8c0e796a8bbff50f3ec9b0b773c5f98e",
+            "name": "Update properties of an existing Permission",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/{type}\/{type_id}\/acl\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "60b0ba9b341d01987eccd46a6fb13e85",
+            "name": "Delete an existing Permission",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/{type}\/{type_id}\/acl\/{id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "61b2fdd4f622c29762262a7660218495",
+            "name": "Send data to a feed via webhook URL.",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/webhooks\/feed\/:token",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        },
+        {
+            "id": "f006a4bf5a87b031347e578b0864ed4a",
+            "name": "Send arbitrary data to a feed via webhook URL.",
+            "url": "http:\/\/io.adafruit.com\/api\/v2\/webhooks\/feed\/:token\/raw",
+            "description": "The raw data webhook receiver accepts POST requests and stores the raw request body on your feed. This is useful when you don't have control of the webhook sender. If feed history is turned on, payloads will be truncated at 1024 bytes. If feed history is turned off, payloads will be truncated at 100KB.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "rawModeData": ""
+        }
+    ]
+}
