@@ -1,0 +1,181 @@
+{
+    "name": "Adafruit Industries",
+    "description": "<p>Adafruit was founded in 2005 by MIT hacker &amp; engineer, Limor \"Ladyada\" Fried. Her goal was to create the best place online for learning electronics and making the best designed products for makers of all ages and skill levels.&nbsp;<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/pull_image_09-07-2019-10-29-am.png",
+    "tags": [
+        "api provider",
+        "devices",
+        "have api",
+        "have swagger",
+        "internet of things",
+        "maker",
+        "profile"
+    ],
+    "created": "2019-12-18",
+    "modified": "2019-12-18",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Adafruit Industries",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/pull_image_09-07-2019-10-29-am.png",
+            "humanURL": "http:\/\/adafruit.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/adafruit-industries.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/adafruit-industries-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Adafruit IO REST API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/pull_image_09-07-2019-10-29-am.png",
+            "humanURL": "http:\/\/adafruit.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/adafruit-io-rest-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/adafruit-io-rest-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Adafruit IO",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/pull_image_09-07-2019-10-29-am.png",
+            "humanURL": "http:\/\/adafruit.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/adafruit-io.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/adafruit-io-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "About",
+            "url": "https:\/\/www.adafruit.com\/about"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/adafruit"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/blog.adafruit.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "https:\/\/blog.adafruit.com\/feed\/"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/www.adafruit.com\/products_api"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/io.adafruit.com\/api\/docs\/#adafruit-io-http-api"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/www.adafruit.com\/products_api"
+        },
+        {
+            "type": "Facebook",
+            "url": "https:\/\/www.facebook.com\/adafruitindustries"
+        },
+        {
+            "type": "FAQ",
+            "url": "https:\/\/io.adafruit.com\/faq"
+        },
+        {
+            "type": "Forums",
+            "url": "https:\/\/forums.adafruit.com\/"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/adafruit"
+        },
+        {
+            "type": "News",
+            "url": "https:\/\/io.adafruit.com\/blog\/"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/10120-2019-09-03-17-56-08.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/10120-2019-09-03-17-56-57.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/10120-2019-09-03-17-58-10.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/10120-2019-09-03-17-58-24.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/10120-2019-09-03-16-57-05.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/10120-2019-09-03-19-38-35.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/10120-2019-09-03-21-58-53.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/10120-2019-09-02-19-01-23.json"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/io.adafruit.com\/plus"
+        },
+        {
+            "type": "Privacy",
+            "url": "https:\/\/www.adafruit.com\/privacy"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "https:\/\/io.adafruit.com\/terms"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/adafruit.com"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.adafruit.com\/"
+        },
+        {
+            "type": "Youtube",
+            "url": "https:\/\/www.youtube.com\/adafruit"
+        }
+    ]
+}
