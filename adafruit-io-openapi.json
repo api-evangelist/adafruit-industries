@@ -1,0 +1,1042 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "2.0.0",
+        "title": "Adafruit IO",
+        "description": "### The Internet of Things for Everyone\n\nThe Adafruit IO HTTP API provides access to your Adafruit IO data from any programming language or hardware environment that can speak HTTP. The easiest way to get started is with [an Adafruit IO learn guide](https:\/\/learn.adafruit.com\/series\/adafruit-io-basics) and [a simple Internet of Things capable device like the Feather Huzzah](https:\/\/www.adafruit.com\/product\/2821).\n\nThis API documentation is hosted on GitHub Pages and is available at [https:\/\/github.com\/adafruit\/io-api](https:\/\/github.com\/adafruit\/io-api). For questions or comments visit the [Adafruit IO Forums](https:\/\/forums.adafruit.com\/viewforum.php?f=56) or the [adafruit-io channel on the Adafruit Discord server](https:\/\/discord.gg\/adafruit).\n\n#### Authentication\n\nAuthentication for every API request happens through the `X-AIO-Key` header or query parameter and your IO API key. A simple cURL request to get all available feeds for a user with the username \"io_username\" and the key \"i",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsio.adafruit.com\/api\/v2"
+    ],
+    "paths": {
+        "\/user": {
+            "get": {
+                "summary": "Get information about the current user",
+                "description": "",
+                "operationId": "CurrentUser",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/activities": {
+            "delete": {
+                "summary": "All activities for current user",
+                "description": "Delete all your activities.",
+                "operationId": "DestroyActivities",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "All activities for current user",
+                "description": "The Activities endpoint returns information about the user's activities.",
+                "operationId": "AllActivities",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/activities\/{type}": {
+            "get": {
+                "summary": "Get activities by type for current user",
+                "description": "The Activities endpoint returns information about the user's activities.",
+                "operationId": "GetActivity",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/dashboards": {
+            "get": {
+                "summary": "All dashboards for current user",
+                "description": "The Dashboards endpoint returns information about the user's dashboards.\n",
+                "operationId": "AllDashboards",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Create a new Dashboard",
+                "description": "",
+                "operationId": "CreateDashboard",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/dashboards\/{dashboard_id}\/blocks": {
+            "get": {
+                "summary": "All blocks for current user",
+                "description": "The Blocks endpoint returns information about the user's blocks.\n",
+                "operationId": "AllBlocks",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Create a new Block",
+                "description": "",
+                "operationId": "CreateBlock",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/dashboards\/{dashboard_id}\/blocks\/{id}": {
+            "delete": {
+                "summary": "Delete an existing Block",
+                "description": "",
+                "operationId": "DestroyBlock",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Returns Block based on ID",
+                "description": "",
+                "operationId": "GetBlock",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "patch": {
+                "summary": "Update properties of an existing Block",
+                "description": "",
+                "operationId": "UpdateBlock",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "put": {
+                "summary": "Replace an existing Block",
+                "description": "",
+                "operationId": "ReplaceBlock",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/dashboards\/{id}": {
+            "delete": {
+                "summary": "Delete an existing Dashboard",
+                "description": "",
+                "operationId": "DestroyDashboard",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Returns Dashboard based on ID",
+                "description": "",
+                "operationId": "GetDashboard",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "patch": {
+                "summary": "Update properties of an existing Dashboard",
+                "description": "",
+                "operationId": "UpdateDashboard",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "put": {
+                "summary": "Replace an existing Dashboard",
+                "description": "",
+                "operationId": "ReplaceDashboard",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/feeds": {
+            "get": {
+                "summary": "All feeds for current user",
+                "description": "The Feeds endpoint returns information about the user's feeds. The response includes the latest value of each feed, and other metadata about each feed.",
+                "operationId": "AllFeeds",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Create a new Feed",
+                "description": "",
+                "operationId": "CreateFeed",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/feeds\/{feed_key}": {
+            "delete": {
+                "summary": "Delete an existing Feed",
+                "description": "",
+                "operationId": "DestroyFeed",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Get feed by feed key",
+                "description": "Returns feed based on the feed key",
+                "operationId": "GetFeed",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "patch": {
+                "summary": "Update properties of an existing Feed",
+                "description": "",
+                "operationId": "UpdateFeed",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "put": {
+                "summary": "Replace an existing Feed",
+                "description": "",
+                "operationId": "ReplaceFeed",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/feeds\/{feed_key}\/data": {
+            "get": {
+                "summary": "Get all data for the given feed",
+                "description": "",
+                "operationId": "AllData",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Create new Data",
+                "description": "",
+                "operationId": "CreateData",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/feeds\/{feed_key}\/data\/batch": {
+            "post": {
+                "summary": "Create multiple new Data records",
+                "description": "",
+                "operationId": "BatchCreateData",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/feeds\/{feed_key}\/data\/chart": {
+            "get": {
+                "summary": "Chart data for current feed",
+                "description": "The Chart API is what we use on io.adafruit.com to populate charts over varying timespans with a consistent number of data points. The maximum number of points returned is 480. This API works by aggregating slices of time into a single value by averaging.\n\nAll time-based parameters are optional, if none are given it will default to 1 hour at the finest-grained resolution possible.",
+                "operationId": "ChartData",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "resolution",
+                        "in": "query",
+                        "description": "A resolution size in minutes. By giving a resolution value you will get back grouped data points aggregated over resolution-sized intervals. NOTE: time span is preferred over resolution, so if you request a span of time that includes more than max limit points you may get a larger resolution than you requested. Valid resolutions are 1, 5, 10, 30, 60, and 120."
+                    },
+                    {
+                        "name": "hours",
+                        "in": "query",
+                        "description": "The number of hours the chart should cover."
+                    }
+                ]
+            }
+        },
+        "\/{username}\/feeds\/{feed_key}\/data\/first": {
+            "get": {
+                "summary": "First Data in Queue",
+                "description": "Get the oldest data point in the feed. This request sets the queue pointer to the beginning of the feed.",
+                "operationId": "FirstData",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/feeds\/{feed_key}\/data\/last": {
+            "get": {
+                "summary": "Last Data in Queue",
+                "description": "Get the most recent data point in the feed. This request sets the queue pointer to the end of the feed.",
+                "operationId": "LastData",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/feeds\/{feed_key}\/data\/next": {
+            "get": {
+                "summary": "Next Data in Queue",
+                "description": "Get the next newest data point in the feed. If queue processing hasn't been started, the first data point in the feed will be returned.",
+                "operationId": "NextData",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/feeds\/{feed_key}\/data\/previous": {
+            "get": {
+                "summary": "Previous Data in Queue",
+                "description": "Get the previously processed data point in the feed. NOTE: this method doesn't move the processing queue pointer.",
+                "operationId": "PreviousData",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/feeds\/{feed_key}\/data\/retain": {
+            "get": {
+                "summary": "Last Data in MQTT CSV format",
+                "description": "Get the most recent data point in the feed in an MQTT compatible CSV format: `value,lat,lon,ele`",
+                "operationId": "RetainData",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/feeds\/{feed_key}\/data\/{id}": {
+            "delete": {
+                "summary": "Delete existing Data",
+                "description": "",
+                "operationId": "DestroyData",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Returns data based on feed key",
+                "description": "",
+                "operationId": "GetData",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "patch": {
+                "summary": "Update properties of existing Data",
+                "description": "",
+                "operationId": "UpdateData",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "put": {
+                "summary": "Replace existing Data",
+                "description": "",
+                "operationId": "ReplaceData",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/feeds\/{feed_key}\/details": {
+            "get": {
+                "summary": "Get detailed feed by feed key",
+                "description": "Returns more detailed feed record based on the feed key",
+                "operationId": "GetFeedDetails",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/groups": {
+            "get": {
+                "summary": "All groups for current user",
+                "description": "The Groups endpoint returns information about the user's groups. The response includes the latest value of each feed in the group, and other metadata about the group.\n",
+                "operationId": "AllGroups",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Create a new Group",
+                "description": "",
+                "operationId": "CreateGroup",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/groups\/{group_key}": {
+            "delete": {
+                "summary": "Delete an existing Group",
+                "description": "",
+                "operationId": "DestroyGroup",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Returns Group based on ID",
+                "description": "",
+                "operationId": "GetGroup",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "patch": {
+                "summary": "Update properties of an existing Group",
+                "description": "",
+                "operationId": "UpdateGroup",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "put": {
+                "summary": "Replace an existing Group",
+                "description": "",
+                "operationId": "ReplaceGroup",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/groups\/{group_key}\/add": {
+            "post": {
+                "summary": "Add an existing Feed to a Group",
+                "description": "",
+                "operationId": "AddFeedToGroup",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/groups\/{group_key}\/data": {
+            "post": {
+                "summary": "Create new data for multiple feeds in a group",
+                "description": "",
+                "operationId": "CreateGroupData",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/groups\/{group_key}\/feeds": {
+            "get": {
+                "summary": "All feeds for current user in a given group",
+                "description": "The Group Feeds endpoint returns information about the user's feeds. The response includes the latest value of each feed, and other metadata about each feed, but only for feeds within the given group.",
+                "operationId": "AllGroupFeeds",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Create a new Feed in a Group",
+                "description": "",
+                "operationId": "CreateGroupFeed",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/groups\/{group_key}\/feeds\/{feed_key}\/data": {
+            "get": {
+                "summary": "All data for current feed in a specific group",
+                "description": "",
+                "operationId": "AllGroupFeedData",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "start_time",
+                        "in": "query",
+                        "description": "Start time for filtering data. Returns data created after given time."
+                    },
+                    {
+                        "name": "end_time",
+                        "in": "query",
+                        "description": "End time for filtering data. Returns data created before give time."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Limit the number of records returned."
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create new Data in a feed belonging to a particular group",
+                "description": "",
+                "operationId": "CreateGroupFeedData",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/groups\/{group_key}\/feeds\/{feed_key}\/data\/batch": {
+            "post": {
+                "summary": "Create multiple new Data records in a feed belonging to a particular group",
+                "description": "",
+                "operationId": "BatchCreateGroupFeedData",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/groups\/{group_key}\/remove": {
+            "post": {
+                "summary": "Remove a Feed from a Group",
+                "description": "",
+                "operationId": "RemoveFeedFromGroup",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/throttle": {
+            "get": {
+                "summary": "Get the user's data rate limit and current activity level.",
+                "description": "",
+                "operationId": "GetCurrentUserThrottle",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/tokens": {
+            "get": {
+                "summary": "All tokens for current user",
+                "description": "The Tokens endpoint returns information about the user's tokens.\n",
+                "operationId": "AllTokens",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Create a new Token",
+                "description": "",
+                "operationId": "CreateToken",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/tokens\/{id}": {
+            "delete": {
+                "summary": "Delete an existing Token",
+                "description": "",
+                "operationId": "DestroyToken",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Returns Token based on ID",
+                "description": "",
+                "operationId": "GetToken",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "patch": {
+                "summary": "Update properties of an existing Token",
+                "description": "",
+                "operationId": "UpdateToken",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "put": {
+                "summary": "Replace an existing Token",
+                "description": "",
+                "operationId": "ReplaceToken",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/triggers": {
+            "get": {
+                "summary": "All triggers for current user",
+                "description": "The Triggers endpoint returns information about the user's triggers.\n",
+                "operationId": "AllTriggers",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Create a new Trigger",
+                "description": "",
+                "operationId": "CreateTrigger",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/triggers\/{id}": {
+            "delete": {
+                "summary": "Delete an existing Trigger",
+                "description": "",
+                "operationId": "DestroyTrigger",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Returns Trigger based on ID",
+                "description": "",
+                "operationId": "GetTrigger",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "patch": {
+                "summary": "Update properties of an existing Trigger",
+                "description": "",
+                "operationId": "UpdateTrigger",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "put": {
+                "summary": "Replace an existing Trigger",
+                "description": "",
+                "operationId": "ReplaceTrigger",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/{type}\/{type_id}\/acl": {
+            "get": {
+                "summary": "All permissions for current user and type",
+                "description": "The Permissions endpoint returns information about the user's permissions.\n",
+                "operationId": "AllPermissions",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Create a new Permission",
+                "description": "",
+                "operationId": "CreatePermission",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{username}\/{type}\/{type_id}\/acl\/{id}": {
+            "delete": {
+                "summary": "Delete an existing Permission",
+                "description": "",
+                "operationId": "DestroyPermission",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Returns Permission based on ID",
+                "description": "",
+                "operationId": "GetPermission",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "patch": {
+                "summary": "Update properties of an existing Permission",
+                "description": "",
+                "operationId": "UpdatePermission",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "put": {
+                "summary": "Replace an existing Permission",
+                "description": "",
+                "operationId": "ReplacePermission",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Activity": {
+                "type": "object",
+                "properties": {
+                    "action": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "data": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "model": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Block": {
+                "type": "object",
+                "properties": {
+                    "block_feeds": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "column": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "key": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "row": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "size_x": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "size_y": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "visual_type": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "BlockFeed": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Dashboard": {
+                "type": "object",
+                "properties": {
+                    "blocks": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "key": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Data": {
+                "type": "object",
+                "properties": {
+                    "completed_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_epoch": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ele": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "expiration": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "feed_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "group_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lat": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lon": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DataResponse": {
+                "type": "object",
+                "properties": {
+                    "completed_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_epoch": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ele": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "expiration": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "feed_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "group_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lat": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lon": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Error": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Feed": {
+                "type": "object",
+                "properties": {
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "details": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "group": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groups": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "history": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "key": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "last_value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "license": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status_notify": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status_timeout": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "unit_symbol": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "unit_type": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "visibility": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Group": {
+                "type": "object",
+                "properties": {
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "feeds": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Permission": {
+                "type": "object",
+                "properties": {
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "model": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "object_id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "scope": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "scope_value": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "user_id": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "ShallowGroup": {
+                "type": "object",
+                "properties": {
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Token": {
+                "type": "object",
+                "properties": {
+                    "token": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Trigger": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "User": {
+                "type": "object",
+                "properties": {
+                    "color": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "time_zone": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "updated_at": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "username": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            }
+        }
+    }
+}
