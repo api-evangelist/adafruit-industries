@@ -17,50 +17,6 @@
     "specificationVersion": "0.14",
     "apis": [
         {
-            "name": "Adafruit Industries",
-            "description": null,
-            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/pull_image_09-07-2019-10-29-am.png",
-            "humanURL": "http:\/\/adafruit.com",
-            "baseURL": "",
-            "tags": [],
-            "properties": [
-                {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-industries-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/adafruit-industries.json"
-                },
-                {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-industries-postman-collection.json"
-                }
-            ]
-        },
-        {
-            "name": "Adafruit IO REST API",
-            "description": null,
-            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/pull_image_09-07-2019-10-29-am.png",
-            "humanURL": "http:\/\/adafruit.com",
-            "baseURL": "",
-            "tags": [],
-            "properties": [
-                {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-io-rest-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/adafruit-io-rest-api.json"
-                },
-                {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-io-rest-api-postman-collection.json"
-                }
-            ]
-        },
-        {
             "name": "Adafruit IO",
             "description": null,
             "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/pull_image_09-07-2019-10-29-am.png",
@@ -79,6 +35,28 @@
                 {
                     "type": "x-postman-collecction",
                     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-io-postman-collection.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-io-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Adafruit Products",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/pull_image_09-07-2019-10-29-am.png",
+            "humanURL": "http:\/\/adafruit.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-products-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-products-postman-collection.json"
                 }
             ]
         }
