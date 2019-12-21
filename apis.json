@@ -11,8 +11,8 @@
         "maker",
         "profile"
     ],
-    "created": "2019-12-18",
-    "modified": "2019-12-18",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -26,11 +26,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/adafruit-industries.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-industries-openapi.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/adafruit-industries-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/adafruit-industries.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-industries-postman-collection.json"
                 }
             ]
         },
@@ -44,11 +48,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/adafruit-io-rest-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-io-rest-api-openapi.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/adafruit-io-rest-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/adafruit-io-rest-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-io-rest-api-postman-collection.json"
                 }
             ]
         },
@@ -62,17 +70,25 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/adafruit-io.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-io-openapi.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/adafruit-io-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/adafruit-io.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/adafruit-industries\/master\/adafruit-io-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "About",
             "url": "https:\/\/www.adafruit.com\/about"
