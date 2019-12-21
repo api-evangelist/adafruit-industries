@@ -1,0 +1,121 @@
+{
+    "id": "059865b41b0f80fb828075e195ac9f96",
+    "name": "Adafruit Products",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "c549734c19dd3e83962891d237bff756",
+            "name": "Products",
+            "url": "\/api\/products",
+            "description": "A complete list of Adafruit products.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "059865b41b0f80fb828075e195ac9f96",
+            "rawModeData": ""
+        },
+        {
+            "id": "4cdbf9101408d1b6a237c1f1e0161730",
+            "name": "Categories",
+            "url": "\/api\/categories",
+            "description": "A complete list of Adafruit categories.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "059865b41b0f80fb828075e195ac9f96",
+            "rawModeData": ""
+        },
+        {
+            "id": "0033104514bfb22b49b2c4d365fa6e63",
+            "name": "Product",
+            "url": "\/api\/products\/{product_id}",
+            "description": "A single Adafruit productl",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "product_id",
+                    "description": "The id of the product.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "059865b41b0f80fb828075e195ac9f96",
+            "rawModeData": ""
+        },
+        {
+            "id": "f0564786cf7306597c4dc4127e536f98",
+            "name": "Category",
+            "url": "\/api\/categories\/{category_id}",
+            "description": "A single Adafriot categpru\/",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "category_id",
+                    "description": "The id of the category.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "059865b41b0f80fb828075e195ac9f96",
+            "rawModeData": ""
+        }
+    ]
+}
