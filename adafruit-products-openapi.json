@@ -1,0 +1,57 @@
+{
+    "openapi": "3.0.0",
+    "servers": [],
+    "paths": {
+        "\/api\/products": {
+            "get": {
+                "summary": "Products",
+                "description": "A complete list of Adafruit products.",
+                "operationId": "GetProducts",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/api\/categories": {
+            "get": {
+                "summary": "Categories",
+                "description": "A complete list of Adafruit categories.",
+                "operationId": "GetCategories",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/api\/products\/{product_id}": {
+            "get": {
+                "summary": "Product",
+                "description": "A single Adafruit productl",
+                "operationId": "GetProduct",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "product_id",
+                        "in": "path",
+                        "description": "The id of the product."
+                    }
+                ]
+            }
+        },
+        "\/api\/categories\/{category_id}": {
+            "get": {
+                "summary": "Category",
+                "description": "A single Adafriot categpru\/",
+                "operationId": "GetCategory",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "category_id",
+                        "in": "path",
+                        "description": "The id of the category."
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
