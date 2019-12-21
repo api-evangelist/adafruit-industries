@@ -1,5 +1,5 @@
 {
-    "id": "b017e16297eb75c06cc8bc02fc403e55",
+    "id": "3f61ded637dff19bf1d09ab749c38e9b",
     "name": "Adafruit IO REST API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "7f1dc4a060827fba2c45d307fb80c930",
+            "id": "4cb5c34c9678099d99c6a18cf66febcc",
             "name": "Get information about the current user",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/user",
             "description": "",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "9b0512b3e95ebf4a3e1491a4c6223d32",
+            "id": "49d73936deb6f44d5b876651ec967d17",
             "name": "Get the user's data rate limit and current activity level.",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/throttle",
             "description": "",
@@ -60,11 +60,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "9e4644c866647c7f7e0941a3262fe734",
+            "id": "f3ca5746461af7e6257a0e7bc3ac9a34",
             "name": "All activities for current user",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/activities",
             "description": "The Activities endpoint returns information about the user's activities.",
@@ -91,11 +91,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "a9b11993c9d0c94ebafb18c198a095ca",
+            "id": "4c46d5cb1856684349d35494084f1d1a",
             "name": "All activities for current user",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/activities",
             "description": "Delete all your activities.",
@@ -122,11 +122,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "0eea96086e4f4a535b07aa13a75c6346",
+            "id": "c085817051f90e3feda26dd7c8887578",
             "name": "Get activities by type for current user",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/activities\/{type}",
             "description": "The Activities endpoint returns information about the user's activities.",
@@ -153,11 +153,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "e9901f151698cab22fba4190aec5da92",
+            "id": "716105e01ec2ea18bce28b30f34eedc5",
             "name": "All feeds for current user",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds",
             "description": "The Feeds endpoint returns information about the user's feeds. The response includes the latest value of each feed, and other metadata about each feed.",
@@ -184,11 +184,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "c606d2c9c204c5e6a3c64d0106487bf0",
+            "id": "102994ab69cbc63683a2f61104609438",
             "name": "Create a new Feed",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds",
             "description": "",
@@ -215,11 +215,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "9a14b3aece6226ec91d00d5b83e7183a",
+            "id": "0a6765c832ade85eefda32fd1ebfd516",
             "name": "Get feed by feed key",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}",
             "description": "Returns feed based on the feed key",
@@ -246,11 +246,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "7dd3c339e25dfea9b1180b465a8e0676",
+            "id": "8aff57c67d59d844f6c54f4071a984db",
             "name": "Replace an existing Feed",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}",
             "description": "",
@@ -277,11 +277,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "b7b5c960884b6f0ed46faa30fddb22f7",
+            "id": "0248441e49eb80bc9e1c8bffc000972a",
             "name": "Update properties of an existing Feed",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}",
             "description": "",
@@ -308,11 +308,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "80eb838c1b86a6f8a5282d58a8f2ab9a",
+            "id": "6f3be48fc6757932657fc7b6aeafcf10",
             "name": "Delete an existing Feed",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}",
             "description": "",
@@ -339,11 +339,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "bc4e8de8f3e523e7e6ddb0d1c6d2d1b2",
+            "id": "80ba666a198f4b1620ec614a988418d4",
             "name": "Get detailed feed by feed key",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/details",
             "description": "Returns more detailed feed record based on the feed key",
@@ -370,11 +370,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "870032b55ddfa23da7eb72a369c699c4",
+            "id": "58a0facf85151e45a7655801325f0dd7",
             "name": "Get all data for the given feed",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data",
             "description": "",
@@ -401,11 +401,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "53216c5d441c051a86cf304d276b8893",
+            "id": "6e56cec3dc92097531536231f13f1ad6",
             "name": "Create new Data",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data",
             "description": "Create new data records on the given feed.\n\n**NOTE:** when feed history is on, data `value` size is limited to 1KB, when feed history is turned off data value size is limited to 100KB.",
@@ -432,11 +432,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "747650de81ad0c4c28800219883c0d78",
+            "id": "3aac60e41f3a808b3c1093fd148729cc",
             "name": "Chart data for current feed",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/chart",
             "description": "The Chart API is what we use on io.adafruit.com to populate charts over varying timespans with a consistent number of data points. The maximum number of points returned is 480. This API works by aggregating slices of time into a single value by averaging.\n\nAll time-based parameters are optional, if none are given it will default to 1 hour at the finest-grained resolution possible.",
@@ -477,11 +477,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "d703f270ab0119e49aa2cdd47ca194b4",
+            "id": "4398512ee685e2304c187ed05aa59487",
             "name": "Create multiple new Data records",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/batch",
             "description": "",
@@ -508,11 +508,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "f53b5199c49e356a8c9f2af0dd35672a",
+            "id": "07bf572bd9fe40503ed37fcf77140d7d",
             "name": "Previous Data in Queue",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/previous",
             "description": "Get the previously processed data point in the feed. NOTE: this method doesn't move the processing queue pointer.",
@@ -539,11 +539,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "d138ed4c9103ff5688e591a3b2f3dd51",
+            "id": "934800010b254a3dafa347fb1d9294e4",
             "name": "Next Data in Queue",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/next",
             "description": "Get the next newest data point in the feed. If queue processing hasn't been started, the first data point in the feed will be returned.",
@@ -570,11 +570,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "950c43f62ba3caf2ed32ea8493d723bc",
+            "id": "fc77149ef4081d1b93874152c2194e72",
             "name": "Last Data in Queue",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/last",
             "description": "Get the most recent data point in the feed. This request sets the queue pointer to the end of the feed.",
@@ -601,11 +601,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "ba64ee015c23042f1629ce1d0660d40e",
+            "id": "d291ce73f3c368d77e6cd10099e97ec6",
             "name": "First Data in Queue",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/first",
             "description": "Get the oldest data point in the feed. This request sets the queue pointer to the beginning of the feed.",
@@ -632,11 +632,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "47b6ddc35673e54d263006e0f03ed6fe",
+            "id": "068465c515b43a5da40aec84bb69dff7",
             "name": "Last Data in MQTT CSV format",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/retain",
             "description": "Get the most recent data point in the feed in an MQTT compatible CSV format: `value,lat,lon,ele`",
@@ -663,11 +663,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "20c7e6924ab433592164c23b0e13a1bd",
+            "id": "041218e255066e73b2be6df6c01acec8",
             "name": "Returns data based on feed key",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/{id}",
             "description": "",
@@ -694,11 +694,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "939a7b28f2118d074b674d7441fb21c9",
+            "id": "59aa53904422ba597c0a8237836b1732",
             "name": "Replace existing Data",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/{id}",
             "description": "",
@@ -725,11 +725,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "3412e954a9b85cbcd74e134fd650cfb0",
+            "id": "1477e2a60a12d31ad286ee734ea2825c",
             "name": "Update properties of existing Data",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/{id}",
             "description": "",
@@ -756,11 +756,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "e48c79402ae122f371f190592c1943fe",
+            "id": "fc947f2169a16bb9cad4ba9a54f572a2",
             "name": "Delete existing Data",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/feeds\/{feed_key}\/data\/{id}",
             "description": "",
@@ -787,11 +787,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "9aca15fec8afe49e09d65236fcfd748f",
+            "id": "0752b12c41355550515374c9601b946d",
             "name": "All groups for current user",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups",
             "description": "The Groups endpoint returns information about the user's groups. The response includes the latest value of each feed in the group, and other metadata about the group.\n",
@@ -818,11 +818,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "6d4213f229f96108545dd4d36a28139d",
+            "id": "cc142ccf861dbcd5fd819b132aca9ef1",
             "name": "Create a new Group",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups",
             "description": "",
@@ -849,11 +849,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "2a7703925e5f6987342b9840a5ff5e1d",
+            "id": "40602dc1506136d33dafb96f7be4dbe3",
             "name": "Returns Group based on ID",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}",
             "description": "",
@@ -880,11 +880,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "cc8fa4673627cfea8dfb7c33ad568caf",
+            "id": "a3767450fb60f21b7b57408c41956615",
             "name": "Replace an existing Group",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}",
             "description": "",
@@ -911,11 +911,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "c2542fff6e01dbb6d876c298301afbed",
+            "id": "41b76554b3ad5092effad02573b8fd4a",
             "name": "Update properties of an existing Group",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}",
             "description": "",
@@ -942,11 +942,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "25cf3812863b8ad6839b7d7b4f3a6322",
+            "id": "a4d16a7d909628c2507da73b16378e42",
             "name": "Delete an existing Group",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}",
             "description": "",
@@ -973,11 +973,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "c4ed38a890e9ac09cc14c4f4502cc03e",
+            "id": "030f2d72d657f1d01e019f09daaa632c",
             "name": "Add an existing Feed to a Group",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/add",
             "description": "",
@@ -1004,11 +1004,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "7c978320d93f9caa0d1a5ae147b38ebc",
+            "id": "927a115a1d0915a05e4bee834f5a83eb",
             "name": "Remove a Feed from a Group",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/remove",
             "description": "",
@@ -1035,11 +1035,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "1061ac09ccf709a603bf1da7f9714158",
+            "id": "84b2a3b2826e8e68c18f71989a04f01b",
             "name": "All feeds for current user in a given group",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/feeds",
             "description": "The Group Feeds endpoint returns information about the user's feeds. The response includes the latest value of each feed, and other metadata about each feed, but only for feeds within the given group.",
@@ -1066,11 +1066,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "7b156de279b5441310b66867ce56121b",
+            "id": "29f54a2e18c41d8db44167502963a15e",
             "name": "Create a new Feed in a Group",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/feeds",
             "description": "",
@@ -1097,11 +1097,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "cbbac3b8979cb211cea5592922af948a",
+            "id": "08b7005b0b181c27274c227855c2aead",
             "name": "Create new data for multiple feeds in a group",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/data",
             "description": "",
@@ -1128,11 +1128,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "8d30b95a08066c15afa068575f77bc45",
+            "id": "dfbdd4f3ebf8cd30031109a078499ad5",
             "name": "All data for current feed in a specific group",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/feeds\/{feed_key}\/data",
             "description": "",
@@ -1180,11 +1180,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "ba88b0cd6ab219de1b9a91800c4e79cd",
+            "id": "580ec51a36ba4f0077a33aa7ecf99d3d",
             "name": "Create new Data in a feed belonging to a particular group",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/feeds\/{feed_key}\/data",
             "description": "",
@@ -1211,11 +1211,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "ad92e318bb8a94e7058a15e8b0a16d6f",
+            "id": "e4845e3ee9751d404e1a53cf60a75d28",
             "name": "Create multiple new Data records in a feed belonging to a particular group",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/groups\/{group_key}\/feeds\/{feed_key}\/data\/batch",
             "description": "",
@@ -1242,11 +1242,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "45391c16283c763712e1ac0fbb1a1ea2",
+            "id": "c72ca3ea5efaa6b8adadfbd18d86a862",
             "name": "All dashboards for current user",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards",
             "description": "The Dashboards endpoint returns information about the user's dashboards.\n",
@@ -1273,11 +1273,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "ea24074215d178eda9493574e39f0202",
+            "id": "f4af1c385b54582f1ebfc688e1a92bbd",
             "name": "Create a new Dashboard",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards",
             "description": "",
@@ -1304,11 +1304,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "5e852caa1ce32921ff5fed846c3672b3",
+            "id": "2636f8011462c02506793c5bd7713160",
             "name": "Returns Dashboard based on ID",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{id}",
             "description": "",
@@ -1335,11 +1335,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "32b42e7e4fc47ef66d4aaf19b81ec0b2",
+            "id": "940620e6ca646e69b7f70a8352df2ae5",
             "name": "Replace an existing Dashboard",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{id}",
             "description": "",
@@ -1366,11 +1366,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "6bbefac09ae3000362d11769a2c69fd9",
+            "id": "b51b3f93d1e89a2aa8be683fb66d4cbe",
             "name": "Update properties of an existing Dashboard",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{id}",
             "description": "",
@@ -1397,11 +1397,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "5ce08189c5aefeb698ac6443232999a4",
+            "id": "a5eb2edeff4abcf326639e52d00bf1ae",
             "name": "Delete an existing Dashboard",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{id}",
             "description": "",
@@ -1428,11 +1428,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "963663592ba3ffdf1027399dc143f350",
+            "id": "7628b81d57b48db9bd29530d819bac04",
             "name": "All blocks for current user",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{dashboard_id}\/blocks",
             "description": "The Blocks endpoint returns information about the user's blocks.\n",
@@ -1459,11 +1459,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "913abe01368dfcc087634ba3897c29c0",
+            "id": "01ef328ea735acb30cbbffc1d03bbd83",
             "name": "Create a new Block",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{dashboard_id}\/blocks",
             "description": "",
@@ -1490,11 +1490,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "415b46ded4a1ee94cf9dc78267def2c2",
+            "id": "711f5f12f132575daaae7fcabf9c4029",
             "name": "Returns Block based on ID",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{dashboard_id}\/blocks\/{id}",
             "description": "",
@@ -1521,11 +1521,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "377b09bd1e9167225cffbd0ef1bdf311",
+            "id": "7c186e23be65bb22fb83f4a3ecf255e5",
             "name": "Replace an existing Block",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{dashboard_id}\/blocks\/{id}",
             "description": "",
@@ -1552,11 +1552,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "897618bec564090effd5af8486d9921c",
+            "id": "db42a486b5ce5015992f244c3c5c995c",
             "name": "Update properties of an existing Block",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{dashboard_id}\/blocks\/{id}",
             "description": "",
@@ -1583,11 +1583,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "2eab9a02d09a80088b5c09d516f9cee6",
+            "id": "ec1883382d21e14a518e8ca4683cdbc2",
             "name": "Delete an existing Block",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/dashboards\/{dashboard_id}\/blocks\/{id}",
             "description": "",
@@ -1614,11 +1614,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "a5473ae905bbfce5d5811d1a3f1f5068",
+            "id": "a2520ddc63d6be095c954e4381df93ca",
             "name": "All tokens for current user",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/tokens",
             "description": "The Tokens endpoint returns information about the user's tokens.\n",
@@ -1645,11 +1645,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "4db1354f5505007cdf5d2f2babcdfcff",
+            "id": "dbd36e6fe1118f5469c334cd96122a64",
             "name": "Create a new Token",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/tokens",
             "description": "",
@@ -1676,11 +1676,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "cee3f32dd728abcb97d4a81b9b492f05",
+            "id": "2b1c61533cc696b0cbe62725bc85e497",
             "name": "Returns Token based on ID",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/tokens\/{id}",
             "description": "",
@@ -1707,11 +1707,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "2dea4fa5bb0974a2745fd44423ab07e4",
+            "id": "83171d991c2dca7e6d363432c8157caa",
             "name": "Replace an existing Token",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/tokens\/{id}",
             "description": "",
@@ -1738,11 +1738,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "fa20bfd2a43254dab87ec8e8df974489",
+            "id": "9905c3e3c6c1a3f163ddd550cfeda7d0",
             "name": "Update properties of an existing Token",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/tokens\/{id}",
             "description": "",
@@ -1769,11 +1769,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "8cb2cba48f80840befef429b9e5120b1",
+            "id": "7fd78d05ff06009f834279e047d0fba2",
             "name": "Delete an existing Token",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/tokens\/{id}",
             "description": "",
@@ -1800,11 +1800,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "c0059876de7ce32801497a70dd9f6934",
+            "id": "670637a40e8ebe6443ddc05338ee96d7",
             "name": "All triggers for current user",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/triggers",
             "description": "The Triggers endpoint returns information about the user's triggers.\n",
@@ -1831,11 +1831,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "c720cd1e21c139a9727dca885335b0e1",
+            "id": "df4ea19ebb5709ffaeaee32cdf91bc7e",
             "name": "Create a new Trigger",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/triggers",
             "description": "",
@@ -1862,11 +1862,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "24df8a0de2adef6a6f2ad68c4aa8beef",
+            "id": "51dd95bc3bcbca52f013b8fd0d3ad74a",
             "name": "Returns Trigger based on ID",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/triggers\/{id}",
             "description": "",
@@ -1893,11 +1893,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "8b9ccd028453451116d2192f5dfd644f",
+            "id": "9cf62ca55e9f2b6753c1994e7daede2d",
             "name": "Replace an existing Trigger",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/triggers\/{id}",
             "description": "",
@@ -1924,11 +1924,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "39c61e7258987993d835c9df4fca365b",
+            "id": "4a2c2b0544e89433f70ed747bb24a20f",
             "name": "Update properties of an existing Trigger",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/triggers\/{id}",
             "description": "",
@@ -1955,11 +1955,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "98d16efe6c7f1c99467ae3c7063dfb7c",
+            "id": "13e66473d768ddd824ce324601b26d76",
             "name": "Delete an existing Trigger",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/triggers\/{id}",
             "description": "",
@@ -1986,11 +1986,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "d9515c082e9664eabb9d754173ac9cfc",
+            "id": "7179ce95806e83ef01fef23d4fb93861",
             "name": "All permissions for current user and type",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/{type}\/{type_id}\/acl",
             "description": "The Permissions endpoint returns information about the user's permissions.\n",
@@ -2017,11 +2017,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "4576fdc015d777030edf2346c98dd791",
+            "id": "5a455346c0ed8d7c2cec6d384c2f16d6",
             "name": "Create a new Permission",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/{type}\/{type_id}\/acl",
             "description": "",
@@ -2048,11 +2048,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "47952cd08e8e6b9bd71207f4376e518e",
+            "id": "c9c9749533eae2f1ffdc6052c128044b",
             "name": "Returns Permission based on ID",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/{type}\/{type_id}\/acl\/{id}",
             "description": "",
@@ -2079,11 +2079,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "bf570fff687b64c5789f24cf9af91070",
+            "id": "95e36a7f7cd4c81d7bdb008e462cc072",
             "name": "Replace an existing Permission",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/{type}\/{type_id}\/acl\/{id}",
             "description": "",
@@ -2110,11 +2110,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "8c0e796a8bbff50f3ec9b0b773c5f98e",
+            "id": "b3262f82e868ce4c4f017608636995db",
             "name": "Update properties of an existing Permission",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/{type}\/{type_id}\/acl\/{id}",
             "description": "",
@@ -2141,11 +2141,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "60b0ba9b341d01987eccd46a6fb13e85",
+            "id": "17195eb2a0e33e6c491e48151be447ef",
             "name": "Delete an existing Permission",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/{username}\/{type}\/{type_id}\/acl\/{id}",
             "description": "",
@@ -2172,11 +2172,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "61b2fdd4f622c29762262a7660218495",
+            "id": "f7a9181da91fa340b31945f4e657e05d",
             "name": "Send data to a feed via webhook URL.",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/webhooks\/feed\/:token",
             "description": "",
@@ -2195,11 +2195,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         },
         {
-            "id": "f006a4bf5a87b031347e578b0864ed4a",
+            "id": "2c7cafe943ac4840156a08052ab8ef1f",
             "name": "Send arbitrary data to a feed via webhook URL.",
             "url": "http:\/\/io.adafruit.com\/api\/v2\/webhooks\/feed\/:token\/raw",
             "description": "The raw data webhook receiver accepts POST requests and stores the raw request body on your feed. This is useful when you don't have control of the webhook sender. If feed history is turned on, payloads will be truncated at 1024 bytes. If feed history is turned off, payloads will be truncated at 100KB.",
@@ -2218,7 +2218,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b017e16297eb75c06cc8bc02fc403e55",
+            "collectionId": "3f61ded637dff19bf1d09ab749c38e9b",
             "rawModeData": ""
         }
     ]
